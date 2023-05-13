@@ -154,3 +154,15 @@ button {
     align-self: flex-end;
     padding: 10px;
 }
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #E5E7EB;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 30px;
+}
