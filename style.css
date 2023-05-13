@@ -122,7 +122,35 @@ button {
     font-family:'Roboto', Arial, Helvetica, sans-serif;
     color: gray;
 }
-/*
+
 .quote-section {
     background-color: #E5E7EB;
-} */
+    flex: 1;
+    flex-basis: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-family:'Roboto', Helvetica, sans-serif;
+    padding: 20px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 18px;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    align-self: flex-end;
+    padding: 10px;
+}
