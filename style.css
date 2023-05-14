@@ -28,6 +28,10 @@ header {
     align-items: center;
 }
 
+header h1 {
+    margin: 15px;
+}
+
 h1 {
     color: #F9FAF8;
     font-size: 24px; 
@@ -39,7 +43,9 @@ h1 {
     flex: 1;
     flex-basis: 500px;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    gap: 80px;
     align-items: center;
     flex-wrap: wrap;
 }
