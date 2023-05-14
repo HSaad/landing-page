@@ -155,6 +155,45 @@ button {
     padding: 10px;
 }
 
+.sign-up-section {
+    flex: 1;
+    flex-basis: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-action {
+    background-color: #3882F6;
+    border-radius: 15px;
+    flex-basis: 800px;
+    height: fit-content;
+    padding: 30px 120px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-action h1 {
+    font-weight: bold;
+    font-size: 24px;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px 0;
+}
+
+.call-action p {
+    font-size: 18px;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+    margin: 10px 0;
+}
+
+.sign-up-section button {
+    border: 2px solid white;
+}
+
 footer {
     background-color: #1F2937;
     display: flex;
